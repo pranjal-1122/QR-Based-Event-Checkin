@@ -47,11 +47,12 @@ const Navbar = () => {
               }`
             }
           >
-            
+
             {/* Shows "Admin" on Mobile, "Admin Portal" on larger screens */}
             <span>Admin<span className="hidden sm:inline"> Portal</span></span>
           </NavLink>
         </div>
+        
 
       </nav>
     </header>
