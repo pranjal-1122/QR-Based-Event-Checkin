@@ -38,7 +38,7 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div className="w-full max-w-lg mx-auto bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-8 shadow-2xl">
+    <div className="w-full max-w-lg mx-auto bg-zinc-900/20 backdrop-blur-2xl border border-zinc-800/80 rounded-2xl p-6 sm:p-8 shadow-2xl">
       <div className="mb-6 text-center sm:text-left">
         <h2 className="text-2xl font-bold text-zinc-100">Event Registration</h2>
         <p className="text-sm text-zinc-400 mt-1">
